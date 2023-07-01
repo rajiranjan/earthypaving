@@ -1,0 +1,94 @@
+.footer{
+    background-color: #152b51;
+}
+
+
+.text-uppercase{
+    color: #BA9364;
+}
+/* .text-uppercase:hover{
+    color: #fff;
+} */
+
+/* .text-center{
+    background: #152b51;
+box-shadow: 0 2px 8px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 0px;
+} */
+
+.name{
+    margin-left: -48px !important;
+    
+}
+
+.name:hover{
+    color: white;
+    text-decoration: underline
+}
+
+.text-reset{
+    margin-top: 10px !important;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.full{
+    margin-left: -50px !important;
+}
+
+
+.ficon{
+    margin-left: 0 !important;
+}
+
+.row{
+    margin-top: 30px !important;
+
+}
+
+   .socialIcon {
+    color: #000000;
+    display: flex;
+    /* background-color: #fffbfb; */
+    display: inline-block;
+    position: relative;
+    padding-top: 10px !important;
+    margin: 0 auto 0 auto;
+    margin-right: -20px !important;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    transition: all 0.8s;
+  }
+  
+  .facebook :hover {
+    /* background-color: #065064; */
+    color:#4267B2;
+    transform: rotate(360deg);
+  }
+  .twitter :hover {
+    /* background-color: #065064; */
+    color:#1DA1F2;
+    transform: rotate(360deg);
+  }
+  .google :hover {
+    /* background-color: #065064; */
+    color:#d52114;
+    transform: rotate(360deg);
+  }
+  .insta :hover {
+    /* background-color: #065064; */
+    color:#E1306C;
+    transform: rotate(360deg);
+  }
+  
+  .socialIcon:hover i {
+    transform: rotate(360deg);
+    transition: all 0.9s;
+  }

@@ -1,0 +1,24 @@
+.toast-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right !important;
+    margin-top: -130px !important;
+    margin-right: 10px !important;
+    padding-right: 30px !important
+}
+
+.toast-header {
+    color: #152B51;
+  }
+  .toast-body {
+    background-color: #CF9753;
+  }
+  .custom-toast {
+    background-color: #CD934D !important; /* Set your custom background color */
+    color: #FFFFFF; /* Set your custom text color */
+  }
+  .another-toast {
+    background-color: #FFA500; /* Set another custom background color */
+    color: #000000; /* Set another custom text color */
+  }

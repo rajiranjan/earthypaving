@@ -1,0 +1,73 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fcf7f7;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  margin-top: 130px !important;
+}
+
+.login__image {
+  background-image: url("https://res.cloudinary.com/dejwpag1r/image/upload/v1685641241/5_i71dlz.png");
+  height: 500px;
+  width: 600px;
+  background-size: cover;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.login__form--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background: #dde4e3;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: -9px;
+}
+
+@media screen and (max-width: 756px) {
+  .login__image {
+    display: none;
+  }
+}
+
+.log{
+  background: #fcf7f7;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 50px;
+margin-top: 130px !important;
+}
+
+.btn-login{
+  background-color: #152B51 !important;
+  color: #BA9364 !important;
+  width: 100%;
+}
+
+.btn-login:hover{
+  color: #fff !important;
+}
+
+.email-input,
+.password-input {
+  display: flex;
+  align-items: center;
+}
+
+.email-icon,
+.password-toggle-icon {
+  margin-left: -25px; /* Adjust this value to control the spacing between the input field and the icon */
+  cursor: pointer;
+}

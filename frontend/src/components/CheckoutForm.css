@@ -1,0 +1,22 @@
+.cart-payment-container{
+    background: #f3f3f3f3;
+box-shadow: 0 2px 10px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 30px;
+border: 20px solid rgba( 255, 255, 255, 0.18 ); 
+/* background-color: #f3ecf3; */
+}
+
+.mb-3{
+    background-color: rgba( 245, 240, 240, 0.05 );
+}
+
+.pay{
+    background-color: #152B51 !important;
+    color: #BA9364 !important;
+}
+
+.pay:hover{
+    color: #fff !important;
+}

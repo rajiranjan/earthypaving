@@ -1,0 +1,27 @@
+.new-product__form--container{
+    margin-left: 327px !important;
+}
+
+.edit{
+    /* background: rgba( 245, 240, 240, 0.05 ) !important; */
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+backdrop-filter: blur( 0px ) !important;
+-webkit-backdrop-filter: blur( 0px ) !important;
+border-radius: 30px !important;
+border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+padding: 0px;
+margin-top: 130px;
+background-color: #fbf7f7;
+/* background-image: url("https://res.cloudinary.com/dejwpag1r/image/upload/v1686502900/badgewatercolor_mbmgbb.jpg"); */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.button{
+    background-color: #152B51 !important;
+    color: #BA9364 !important;
+}
+
+.button:hover{
+    color: #fff !important;
+}

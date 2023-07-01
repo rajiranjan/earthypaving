@@ -1,0 +1,73 @@
+.product__carousel--image {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    display: none !important;
+}
+
+.Row{
+    background: #f3f3f3;
+box-shadow: 0 2px 10px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-width: 30px;
+/* border: none; */
+/* height: 630px !important; */
+margin-top: -20px !important;
+}
+
+/* .colum{
+    background: rgb(250,248,248);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-width: 30px;
+height: 50px !important;
+} */
+
+.pt-5{
+    background: rgb(250,248,248);
+box-shadow: 0 0px 2px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-width: 30px;
+margin-top: 120px;
+}
+
+.my-4{
+    background: #f3f3f3;
+box-shadow: 0 2px 10px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-width: 30px;
+margin-top: 120px !important;
+}
+
+.Edit{
+    background-color: #152B51 !important;
+    color: #BA9364 !important;
+    font-family:Raleway;
+}
+
+.Edit:hover{
+    color: #fff !important;
+}
+.bclr{
+    color:#BA9463;
+}
+
+.bclr:hover{
+    color: #fff;
+}

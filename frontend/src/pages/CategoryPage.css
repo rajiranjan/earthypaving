@@ -1,0 +1,66 @@
+.category-page-container {
+    min-height: 90vh;
+}
+
+.category-banner-container {
+    height: 20px !important;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 50px;
+    /* border: none; */
+}
+
+.text-center{
+   margin-top: 40px !important;
+   color: #BA9364;
+}
+
+/* .category-page-container{
+    height: 200px;
+    background-color: #182e39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 15px;
+} */
+
+.text-reset{
+    margin-left: 50px !important;
+    margin-bottom: 10px;
+}
+
+#icon{
+    /* background-image: url("https://res.cloudinary.com/dejwpag1r/image/upload/v1685337800/2_u2hrxg.png"); */
+    /* background-repeat:repeat-x; */
+    /* background-size: 100%; */
+    background-color: #152b51;
+}
+
+.Col{
+    background: rgba( 245, 240, 240, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+background-color: #fbf7f7;
+padding: 60px;
+}
+
+input[type="search"] {
+    width: 80%;
+    padding: 5px 20px; /*Adjust the padding as needed*/
+  }
+
+  .search-icon {
+    position:relative;
+    top: 10px;
+    right: 30px;
+    pointer-events: none;
+    /* visibility: ${isSearchBarFocused || isPlaceholderVisible ? 'hidden' : 'visible'}; */
+  /* pointer-events: none; */
+  }
